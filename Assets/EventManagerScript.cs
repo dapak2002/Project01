@@ -61,7 +61,7 @@ public class EventManagerScript : MonoBehaviour
     public void ButtonClicked()
     {
         DateTime date1 = DateTime.Now;
-        WriteFile(date1 + ": BUTTON WAS CLICKED.");
+        WriteFile(date1 + ": Button was clicked.");
     }
 
     //Called when space bar is pressed
